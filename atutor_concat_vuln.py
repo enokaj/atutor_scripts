@@ -41,7 +41,7 @@ def request_hash(member_id, prefix_length):
 def main():
     if len(sys.argv) != 3:
         print(f'(+) usage: {sys.argv[0]} <member_id> <prefix_length>')
-        print(f'(+) eg: {sys.argv[0]} 1 2')
+        print(f'(+) eg: {sys.argv[0]} 2')
         sys.exit(-1)
 
     member_id = int(sys.argv[1])
